@@ -1,0 +1,29 @@
+{
+  "name": "agent-observability-dashboard",
+  "version": "1.0.0",
+  "description": "A dev-first observability platform for agent traces",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "observability",
+    "dashboard",
+    "monitoring"
+  ],
+  "author": "AI Engineer Community",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
