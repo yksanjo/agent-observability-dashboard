@@ -1,39 +1,84 @@
-# Agent Observability Dashboard
+# agent-observability-dashboard
 
-![License](https://img.shields.io/github/license/yksanjo/agent-observability-dashboard)
-![GitHub stars](https://img.shields.io/github/stars/yksanjo/agent-observability-dashboard?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yksanjo/agent-observability-dashboard)
-![TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-blue)
-![Node.js](https://img.shields.io/badge/Made%20with-Node.js-green)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+## Detailed Description
 
-A dev-first observability platform for agent traces showing token usage, latency, cost per agent execution, tool call sequences & failure points, context window utilization heatmaps, and parallel agent race conditions visualization.
+agent-observability-dashboard is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## Features
+## Problem Statement
 
-- Real-time agent execution monitoring
-- Token usage and cost tracking
-- Tool call sequence visualization
-- Context window utilization heatmaps
-- Race condition detection for parallel agents
-- Export and replay capabilities
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## Installation
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-npm install
+npm ci
+npm run lint
+npm test
+npm run build
 ```
 
 ## Usage
 
-```bash
-npm start
-```
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
